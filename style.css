@@ -22,6 +22,24 @@ p{
     word-spacing: 0.1em;
 }
 
+a{
+    text-decoration: none;
+    cursor: crosshair;
+    color: green;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover, a:focus{
+    color: aqua;
+}
+
+a:active{
+    color: red;
+}
+
 h1, h3{
     margin: 1.5em;
     padding: 0;
