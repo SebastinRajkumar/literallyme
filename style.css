@@ -87,6 +87,16 @@ h1, h3{
     text-decoration: underline;
 }
 
+ol{
+    font-size: 1.5rem;
+    list-style-type:upper-roman;
+    padding-left: 3em;
+}
+
+ul{
+    list-style-image: url('../first/bullet/finger.png');
+}
+
 input, button{
     font-size: inherit;
 }
