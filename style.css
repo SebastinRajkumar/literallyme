@@ -60,3 +60,7 @@ h1, h3{
     border-radius: 75px;
     text-decoration: underline;
 }
+
+input, button{
+    font-size: inherit;
+}
