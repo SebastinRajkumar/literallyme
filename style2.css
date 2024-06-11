@@ -22,6 +22,21 @@ div{
     margin: 0;
 }
 
+section{
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.float{
+    float: left;
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 2em;
+    display: inline-block;
+}
+
 ul{
     list-style-type: none;
 }
