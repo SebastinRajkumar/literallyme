@@ -1,5 +1,7 @@
 body{
     font-size: 1.5rem;
+    background-color: rgb(98, 154, 156);
+    height: 200vh;
 }
 
 .header{
@@ -8,5 +10,22 @@ body{
 
 div{
     columns: 4 200px;
-    column-rule: 4px solid red;
+    column-rule: 4px solid rgba(168, 104, 0, 0.798);
+    column-gap: 2rem;
+}
+
+div h2{
+    background-color: rgba(220, 20, 60, 0.558);
+    padding: 1rem;
+    break-inside: avoid;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
 }
