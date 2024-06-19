@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+body{
+    min-height: 100vh;
+    padding: 2em;
+    border: 2px solid black;
+/*     background: linear-gradient(rgb(19, 130, 228), rgb(184, 184, 184));
+ */
+    background-image: url("1330515.jpg");
+    background: repeat-y left center url("1330515.jpg")
+    ,no-repeat linear-gradient(to left,rgb(19, 130, 228), rgb(184, 184, 184));
+    /* background-repeat: no-repeat; */
+    background-size: 20%, auto;
+    /* background-position: left; */
+    }
+
+.noWrap{
+    white-space: nowrap;
+}
+
+.MoveOffScreen{
+    position: absolute;
+    left: -10000px;
+}
+
+.profile_section{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.profile{
+    width: 30%;
+}
+
+.profile img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    min-width: 100px;
+    border: 2px solid black;
+}
+
+.header1{
+    padding: 1.5rem;
+    font-size:220%;
+    font-weight: bolder;
+    text-transform:uppercase;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+}
+
+.clipped{
+    font-size: 10rem;
+    text-align: center;
+    font-weight: 800;
+    background-image: url("ryan-gosling9.webp");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
